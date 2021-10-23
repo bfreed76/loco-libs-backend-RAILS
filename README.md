@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # README
 
-Better readme coming soon 10/22/21.
+More readme coming soon 10/22/21.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -25,7 +24,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-=======
 <div id="top"></div>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -277,4 +275,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
->>>>>>> 164ab0443a78c47ff2c0e57b4478a7f712e5e84e
