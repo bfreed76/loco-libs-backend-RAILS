@@ -6,6 +6,13 @@ class StoriesController < ApplicationController
         render json: stories
     end
 
+    def create
+        byebug
+    end
+
+    def destroy
+    end
+
     private
 
     def render_not_found_response
