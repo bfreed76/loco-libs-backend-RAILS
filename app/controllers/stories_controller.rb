@@ -7,10 +7,11 @@ class StoriesController < ApplicationController
     end
 
     def create
-        byebug
+        puts "Create worked"
     end
 
     def destroy
+        puts "Destroy worked"
     end
 
     private
