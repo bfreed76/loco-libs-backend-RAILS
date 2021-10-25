@@ -15,10 +15,10 @@ Word.delete_all
 brinton = User.create(name: "brinton")
 willow = User.create(name: "willow")
 
-clock = Word.create(word: "clock")
-jump = Word.create(word: "jump")
-ran = Word.create(word: "ran")
-moscow = Word.create(word: "moscow")
-july = Word.create(word: "july")
+clock = Word.create(name: "clock")
+jump = Word.create(name: "jump")
+ran = Word.create(name: "ran")
+moscow = Word.create(name: "moscow")
+july = Word.create(name: "july")
 
 puts "SEEDED THE DATABASE"
