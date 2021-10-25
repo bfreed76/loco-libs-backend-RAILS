@@ -1,6 +1,8 @@
 # README
 
-More readme coming soon 10/22/21.
+This repo is deployed at https://loco-libs-rails-backend.herokuapp.com/stories. Other endpoints include https://loco-libs-rails-backend.herokuapp.com/users, https://loco-libs-rails-backend.herokuapp.com/words.
+
+More readme coming soon.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
