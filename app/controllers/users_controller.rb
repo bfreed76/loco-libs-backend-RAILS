@@ -5,6 +5,11 @@ class UsersController < ApplicationController
         users = User.all
         render json: users
     end
+
+    def create
+        user = params[:user]["username"]
+        render json: user
+    end
     
     private
 
