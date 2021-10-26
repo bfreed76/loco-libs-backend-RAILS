@@ -7,7 +7,15 @@ class StoriesController < ApplicationController
     end
 
     def create
-        byebug
+        user = params[:name]
+        title = params[:title]
+        author = params[:author]
+        content = params[:content]
+
+        newAuthor = User.create(name: user)
+        newStory = Story.create(title: title, author: author, content: content, user_id: newAuthor.id)
+
+        render json: newStory
     end
 
     def destroy
