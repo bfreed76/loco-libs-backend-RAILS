@@ -19,7 +19,9 @@ class StoriesController < ApplicationController
     end
 
     def destroy
-        puts "Destroy worked"
+        story = Story.find(params[:id])
+        story.delete
+        render json: story
     end
 
     private
