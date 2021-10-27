@@ -22,7 +22,6 @@ class StoriesController < ApplicationController
         story = Story.find_by(id: params[:id])
         if story
             story.destroy
-            head :no_content
         end
     end
 
