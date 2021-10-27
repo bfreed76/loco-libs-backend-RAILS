@@ -23,8 +23,6 @@ class StoriesController < ApplicationController
         if story
             story.destroy
         end
-        stories = Story.all
-        render json: stories
     end
 
     private
