@@ -19,9 +19,11 @@ class StoriesController < ApplicationController
     end
 
     def destroy
-        story = Story.find(params[:id])
-        story.delete
-        render json: story
+        story = Story.find_by(id: params[:id])
+        if story
+            story.destroy
+            head :no_content
+        end
     end
 
     private
